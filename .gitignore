@@ -1,0 +1,16 @@
+cat > .gitignore <<'EOF'
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Java compiled files
+*.class
+
+# Build output
+bin/
+target/
+
+# IDE metadata
+.factorypath
+EOF
